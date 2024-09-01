@@ -1,0 +1,38 @@
+[https://hu.wikipedia.org/wiki/Seiko]
+
+-- Közös elemek
+Seiko Boutique
+
+Webshop
+
+Szervíz árak
+
+Wikipédia
+
+-- Webshop
+SARY055
+Vásárolja meg ezt az órát!
+
+SNKK805
+Vásárolja meg ezt az órát!
+
+SNKM97
+Vásárolja meg ezt az órát!
+
+SPB143
+Vásárolja meg ezt az órát!
+
+-- Szervíz
+"Amennyiben szeretett órája elromlik, vagy csak időszakos szervíz esedékes, ne habozzon felkeresni minket!"
+
+- Harold, szervízvezető
+
+Munkafolyamat	Idő	Ár
+Szíjbeállítás / csere	5 perc	500 Ft
+Beszabályozás	30 perc	3.000 Ft
+Bevizsgálás	30 perc	5.000 Ft
+Teljes szervíz (3 mutatós óra)	180 perc	10.000 Ft
+Teljes szervíz (3 mutatós óra + dátum vagy automata)	210 perc	12.500 Ft
+Teljes szervíz (3 mutatós óra + dátum és automata)	240 perc	15.000 Ft
+
+Az áraink forintban értendők, valamint az AFÁ-t tartalmazzák!

@@ -1,0 +1,54 @@
+<div class="container my-4">
+    <div class="row">
+        <div class="col-12">
+            <h1>Feladat</h1>
+
+            <form>
+                <div class="form-group my-2">
+                    <label for="isbn" class="form-label">ISBN</label>
+                    <input [(ngModel)]="isbn" name="isbn" id="isbn" type="text" class="form-control">
+                </div>
+                <div class="form-group my-2">
+                    <label for="cim" class="form-label">Cim</label>
+                    <input [(ngModel)]="cim" name="cim" id="cim" type="text" class="form-control">
+                </div>
+                <div class="form-group my-2">
+                    <label for="db" class="form-label">Db</label>
+                    <input [(ngModel)]="db" name="db" id="db" type="number" class="form-control">
+                </div>
+                <div class="form-group my-2">
+                    <input [(ngModel)]="keszleten" name="keszleten" id="keszleten" type="checkbox">
+                    <label for="keszleten" class="form-label">Keszleten</label>
+                </div>
+
+                <button type="button" class="btn btn-primary" (click)="felvitel()">Felvitel</button>
+            </form>
+
+            <br>
+            <hr>
+            <br>
+
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ISBN</th>
+                        <th>Cim</th>
+                        <th>Db</th>
+                        <th>Felvitel ideje</th>
+                        <th>Keszleten</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let k of konyvek">
+                        <td>{{k.isbn}}</td>
+                        <td>{{k.cim}}</td>
+                        <td>{{k.db}}</td>
+                        <td>{{k.felvitelDatum | date: 'YYYY-MM-dd HH:mm:ss'}}</td>
+                        <td>{{k.keszleten ? "igen" : "nem"}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
